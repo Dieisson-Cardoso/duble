@@ -1,0 +1,21 @@
+### Req GET
+
+GET http://localhost:3333
+
+### Res POST
+POST http://localhost:3333/
+Content-Type: application/json
+
+{
+  "name":"Diana",
+  "email":"diana@fema.com.br"
+}
+
+### Res POST
+POST http://localhost:3333/post/1
+Content-Type: application/json
+
+{
+  "title":"Post via express",
+  "content":"post via express"
+}
